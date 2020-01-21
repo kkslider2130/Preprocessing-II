@@ -168,27 +168,6 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.top-container {
-  display: flex;
-  justify-content: space-evenly;
-  border-bottom: 2px dashed #C0C0C0;
-  padding: 2% 0%;
-  margin-right: 2rem;
-}
-.top-container h1 {
-  margin-right: 15rem;
-}
-.top-container nav .nav-links {
-  display: flex;
-  align-items: center;
-}
-.top-container nav .nav-links a {
-  text-decoration: none;
-  font-size: 1.6rem;
-  color: black;
-  padding-left: 7rem;
-  padding-top: 1rem;
-}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -245,28 +224,4 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
-}
-.home .content-pick .destination .btn {
-  width: 75%;
-  background-color: teal;
-  padding: 1em 2em 1em 2em;
-  border-radius: 10px;
-  color: white;
-  text-align: center;
-  font-size: 1.3rem;
-}
-.welcome {
-  text-align: center;
-}
-.welcome .welcome-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 75%;
-  text-align: left;
-  margin-left: 20rem;
-}
-.welcome .welcome-content h2 {
-  padding-top: 2rem;
 }
