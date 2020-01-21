@@ -5,9 +5,16 @@
     border-bottom: 2px dashed @navigation-border;
     padding: 2% 0%;
     margin-right: 2rem;
+    @media @mobile {
+        flex-direction: column;
+        justify-items: center;
+        .title{
+            text-align: center;
+            width:100%;
+        }
+    }
 
-    h1{
-        margin-right: 15rem;
+    
     }
 
     nav{
@@ -21,9 +28,13 @@
             color: black;
             padding-left: 7rem;
             padding-top: 1rem;
+
+            @media @mobile {
+                font-size: 1.3rem;
+            }
         }
     }
     }
 
-}
+
 
