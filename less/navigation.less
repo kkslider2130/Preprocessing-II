@@ -5,13 +5,17 @@
     border-bottom: 2px dashed @navigation-border;
     padding: 2% 0%;
     margin-right: 2rem;
+    @media @smallTablet{
+        margin-right: 0;
+    }
     @media @mobile {
         flex-direction: column;
         justify-items: center;
         .title{
             text-align: center;
             width:100%;
-        }
+       }
+        
     }
 
     
@@ -29,8 +33,13 @@
             padding-left: 7rem;
             padding-top: 1rem;
 
+            @media @smallTablet{
+                padding-left: 3rem;
+            }
+
             @media @mobile {
                 font-size: 1.3rem;
+                padding-left: 7rem;
             }
         }
     }

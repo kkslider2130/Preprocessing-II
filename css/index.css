@@ -176,6 +176,11 @@ img {
   padding: 2% 0%;
   margin-right: 2rem;
 }
+@media (max-width: 640px) {
+  .top-container {
+    margin-right: 0;
+  }
+}
 @media (max-width:500px) {
   .top-container {
     flex-direction: column;
@@ -197,9 +202,15 @@ nav .nav-links a {
   padding-left: 7rem;
   padding-top: 1rem;
 }
+@media (max-width: 640px) {
+  nav .nav-links a {
+    padding-left: 3rem;
+  }
+}
 @media (max-width:500px) {
   nav .nav-links a {
     font-size: 1.3rem;
+    padding-left: 7rem;
   }
 }
 .footer {
@@ -218,6 +229,11 @@ nav .nav-links a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+@media (max-width: 800px) {
+  .home .content-section {
+    margin: 3rem 2rem;
+  }
 }
 @media (max-width:500px) {
   .home .content-section {
@@ -282,9 +298,15 @@ nav .nav-links a {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 800px) {
+  .home .content-pick {
+    margin: 2rem 3rem;
+  }
+}
 @media (max-width:500px) {
   .home .content-pick {
     flex-direction: column;
+    margin: 0rem;
   }
 }
 .home .content-pick .destination {
@@ -323,6 +345,17 @@ nav .nav-links a {
   width: 75%;
   text-align: left;
   margin-left: 20rem;
+}
+@media (max-width: 1200px) {
+  .welcome .welcome-content {
+    margin-left: 10rem;
+  }
+}
+@media (max-width: 800px) {
+  .welcome .welcome-content {
+    width: 90%;
+    margin-left: 3rem;
+  }
 }
 @media (max-width:500px) {
   .welcome .welcome-content {
